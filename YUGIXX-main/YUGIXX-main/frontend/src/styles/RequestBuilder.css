@@ -1,0 +1,157 @@
+.request-builder {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.request-section {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.url-section {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.url-section select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-width: 100px;
+}
+
+.url-section input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.url-section button {
+  padding: 0.5rem 1rem;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.url-section button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.tabs {
+  padding: 1rem;
+}
+
+.tab-section {
+  margin-bottom: 1.5rem;
+}
+
+.tab-section h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.key-value-pair {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.key-value-pair input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.key-value-pair button {
+  padding: 0.5rem;
+  background: #f1f3f4;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tab-section button {
+  padding: 0.5rem 1rem;
+  background: #f1f3f4;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.response-section {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.response-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.status-code {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.status-code.success {
+  background: #e6f4ea;
+  color: #137333;
+}
+
+.status-code.error {
+  background: #fce8e6;
+  color: #c5221f;
+}
+
+.response-time {
+  color: #666;
+}
+
+.response-tabs {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+pre {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+.error-message {
+  background: #fce8e6;
+  color: #c5221f;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+} 
